@@ -1403,8 +1403,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c52e024b791ffe43ac1e62387df3968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
-  fadeTime: 0
 --- !u!4 &1143369610
 Transform:
   m_ObjectHideFlags: 0
@@ -1668,6 +1666,7 @@ MonoBehaviour:
   cameraAnim: {fileID: 1564275169}
   doorAnim: {fileID: 32056603}
   canvasAnim: {fileID: 1254720436}
+  levelToLoad: SampleScene
 --- !u!95 &1254720436
 Animator:
   serializedVersion: 4

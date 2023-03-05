@@ -9,6 +9,8 @@ public class Menu : MonoBehaviour
     public Animator doorAnim;
     public Animator canvasAnim;
 
+    public string levelToLoad;
+
     private void Start()
     {
         Cursor.lockState = CursorLockMode.None;
@@ -38,7 +40,7 @@ public class Menu : MonoBehaviour
 
         yield return new WaitForSeconds(5);
 
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene(levelToLoad);
 
     }
 

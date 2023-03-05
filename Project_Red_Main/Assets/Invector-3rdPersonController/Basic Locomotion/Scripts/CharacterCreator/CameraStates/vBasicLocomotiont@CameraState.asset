@@ -34,11 +34,11 @@ MonoBehaviour:
     cullingMinDist: 0.01
     fov: 60
     useZoom: 0
-    fixedAngle: {x: 360, y: 78}
+    fixedAngle: {x: 0, y: 0}
     lookPoints:
     - pointName: point_01
-      positionPoint: {x: 0, y: 1, z: -10}
-      eulerAngle: {x: -0, y: 0, z: 0}
+      positionPoint: {x: 25.2, y: 2.058114, z: 28.5}
+      eulerAngle: {x: 6.863985, y: 329.84055, z: -0.00000064495276}
       freeRotation: 0
     cameraMode: 0
   - Name: Sprinting
@@ -137,8 +137,8 @@ MonoBehaviour:
     fixedAngle: {x: 0, y: 0}
     lookPoints:
     - pointName: point_01
-      positionPoint: {x: 26.55739, y: 11.5149355, z: -14.382481}
-      eulerAngle: {x: 18.395489, y: 3.074889, z: 0.00039735218}
+      positionPoint: {x: 25.2, y: 2.058114, z: 28.5}
+      eulerAngle: {x: 6.8639855, y: 329.84055, z: -0.00000085993713}
       freeRotation: 1
     cameraMode: 2
   - Name: Sliding
